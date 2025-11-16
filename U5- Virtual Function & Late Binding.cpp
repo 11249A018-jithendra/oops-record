@@ -1,3 +1,11 @@
+//Aim:
+To demonstrate virtual functions and late binding.
+//Algorithm:
+1. Create base class Employee with name and virtual calculateSalary().
+2. Derive FullTime with basic and bonus. Override calculateSalary().
+3. Derive PartTime with hourlyRate and hours. Override calculateSalary().
+4. Create Employee* pointers to FullTime and PartTime objects and call calculateSalary()
+— resolves at runtime.
 #include <iostream>
 #include <string>
 using namespace std;
@@ -46,3 +54,5 @@ int main() {
  delete e1; delete e2;
  return 0;
 }
+//Result:
+The program is successfully completed and executed.
