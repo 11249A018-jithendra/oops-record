@@ -1,3 +1,10 @@
+//Aim:
+To implement multilevel inheritance.
+Algorithm:
+1. Create classes Employee → Manager → Director.
+2. Each class adds extra data.
+3. Use functions to input and display all data.
+ /Program:
 #include <iostream>
 using namespace std;
 class Employee {
@@ -38,4 +45,7 @@ int main() {
  d.getDirector();
  d.display();
 }
+/Result:
+The program is successfully completed and executed.
+
 
