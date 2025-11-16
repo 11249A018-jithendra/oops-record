@@ -1,3 +1,10 @@
+//Aim:
+To show the use of this pointer in member functions.
+//Algorithm:
+1. Create Account with balance.
+2. deposit(double balance) uses this->balance += balance.
+3. Display updated balance
+/Program:
 #include <iostream>
 using namespace std;
 class Account {
@@ -16,3 +23,5 @@ int main() {
  a.show();
  return 0;
 }
+//Result:
+The program is successfully complete and executed.
