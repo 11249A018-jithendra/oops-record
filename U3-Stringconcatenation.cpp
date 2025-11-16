@@ -1,3 +1,23 @@
+//Aim:
+To implement string concatenation using + operator.
+ //Algorithm:
+1.Start the program.
+2.Define the class StringConcat with:
+      .A character array str[50] to store a string.
+       .Function getString() to input a string.
+       .Overloaded operator function operator+() to concatenate two strings:
+       .Copy first string into a temporary object.
+        .Append the second string using strcat().
+         .Return the temporary object.
+          .Function display() to output the resulting string.
+3.In main():
+     -Create three objects: s1, s2, and s3.
+      -Input the first string using s1.getString().
+      -Input the second string using s2.getString().
+      -Concatenate them using s3 = s1 + s2.
+      -Display the concatenated string using s3.display().
+4.End 
+/Program:
 #include <iostream>
 #include <string.h>
 using namespace std;
@@ -26,3 +46,6 @@ int main() {
  s3.display();
  return 0;
 }
+//Result;
+The program successfully overloads the + operator to concatenate two strings and displays the final combined string.
+
