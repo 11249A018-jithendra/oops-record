@@ -1,3 +1,14 @@
+//Aim:
+To create a class that represents books and displays their details.
+//Algorithm:
+1. Start the program.
+2. Define a class Book with title, author, and price.
+3. Define display() to print details.
+4. In main(), create two objects.
+5. Assign values to each object.
+6. Display using display().
+7. Stop
+program:
 #include<iostream>
 using namespace std;
 class book
@@ -26,3 +37,5 @@ int main()
 	b2.display();
 	return 0;
 }
+//result:creating book class and creating object is successfully completed & executed.
+
