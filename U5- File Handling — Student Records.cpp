@@ -1,3 +1,9 @@
+//Aim:
+To practice basic file I/O in C++.
+//Algorithm:
+1. Open students.txt for writing, write a few records (simple format).
+2. Close and reopen for reading, parse and display.
+/Program:
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -6,9 +12,9 @@ int main() {
  // Write sample records
  ofstream fout("students.txt");
  if (!fout) { cerr << "Cannot create file\n"; return 1; }
- fout << "101 John 85\n";
- fout << "102 Alice 90\n";
- fout << "103 Bob 78\n";
+ fout << "101 jithu 85\n";
+ fout << "102 lucky 90\n";
+ fout << "103 dosth 78\n";
  fout.close();
  // Read and display
  ifstream fin("students.txt");
@@ -22,3 +28,6 @@ int main() {
  fin.close();
  return 0;
 }
+/Result:
+The program is successfully complete and executed.
+
