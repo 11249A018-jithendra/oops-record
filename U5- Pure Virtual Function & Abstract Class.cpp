@@ -1,3 +1,10 @@
+//Aim:
+To practice pure virtual functions and abstract classes.
+//Algorithm:
+1. Create Shape with pure virtual area().
+2. Create derived classes and implement area().
+3. Use Shape* to refer to each derived object and display area.
+/Program:
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -34,3 +41,6 @@ int main() {
  delete s1; delete s2; delete s3;
  return 0;
 }
+//Result:
+The program is successfully complete and executed.
+
