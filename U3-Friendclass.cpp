@@ -1,3 +1,10 @@
+//Aim:
+To use friend class to access private data of another class.
+Algorithm:
+1. Create class Student with marks as private members.
+2. Declare class Result as a friend.
+3. In Result, calculate and display average marks.
+/Program:
 #include <iostream>
 using namespace std;
 class Student {
@@ -23,4 +30,7 @@ int main() {
  r.displayResult(s);
  return 0;
 }
+//Result:
+The program is successful completed & executed.
+
 
