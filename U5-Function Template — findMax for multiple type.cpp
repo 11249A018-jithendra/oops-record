@@ -1,3 +1,9 @@
+//Aim:
+To learn function templates and template instantiation.
+//Algorithm:
+1. Create template T findMax(T a, T b).
+2. Use it with different types.
+/program:
 #include <iostream>
 #include <string>
 using namespace std;
@@ -11,3 +17,5 @@ int main() {
  cout << "Max(string): " << findMax(string("apple"), string("banana")) << endl;
  return 0;
 }
+/Result:
+The program is successfully complete and executed.
