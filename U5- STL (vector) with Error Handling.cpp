@@ -1,3 +1,11 @@
+//Aim:
+To use STL (vector) and exception handling together.
+//Algorithm:
+1. Read n.
+2. For each student read mark; if not in [0,100], throw invalid_argument.
+3. Catch exceptions (report and skip storing invalid mark).
+4. Display successfully stored marks.
+ /Program:
 #include <iostream>
 #include <vector>
 #include <stdexcept>
@@ -23,3 +31,6 @@ int main() {
  cout << "Student " << i+1 << ": " << marks[i] << endl;
  return 0;
 }
+/Result:
+The program is successfully complete and executed.
+
