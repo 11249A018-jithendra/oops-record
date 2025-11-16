@@ -1,3 +1,10 @@
+//Aim:
+To demonstrate virtual base classes and resolve the diamond ambiguity.
+//Algorithm:
+1. Student with common data.
+2. Test and Sports virtually inherit from Student.
+3. Result inherits Test and Sports, collects marks and sport score, and computes total.
+/Program:
 #include <iostream>
 #include <string>
 using namespace std;
@@ -35,3 +42,6 @@ int main() {
  res.display();
  return 0;
 }
+/Result:
+The program is successfully complete and executed.
+
