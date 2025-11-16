@@ -1,3 +1,9 @@
+//Aim:
+To use C++ try / catch for runtime error handling.
+//Algorithm:
+1. Create double safeDiv(double a, double b) that throws std::runtime_error if b==0.
+2. In main, call inside try and catch exceptions
+/Program:
 #include <iostream>
 #include <stdexcept>
 using namespace std;
@@ -18,3 +24,6 @@ int main() {
  }
  return 0;
 }
+/Result:
+The program is successfully complete and executed.
+
