@@ -1,3 +1,14 @@
+//Aim:
+To write a C++ program using constructor overloading and copy constructor for book details.
+Algorithm:
+1. Start the program.
+2. Create class Book with members: title, author, price.
+3. Define three constructors — default, parameterized, and copy.
+4. Create a function display() to show details.
+5. Create three book objects using all constructors.
+6. Display data.
+7. Stop
+//Program:
 #include <iostream>
 using namespace std;
 class Book {
@@ -40,5 +51,8 @@ int main() {
     cout << "Most expensive book: " << exp.getPrice() << endl;
     return 0;
 }
+//Result:
+The program successfully store and displays book details and find the most expensive book. 
+
 
 
