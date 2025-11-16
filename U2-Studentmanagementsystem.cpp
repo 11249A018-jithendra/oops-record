@@ -1,3 +1,18 @@
+//Aim:
+To design a C++ program using classes that manages student details and demonstrates constructors, 
+destructors, static members, and arrays.
+Algorithm:
+1. Start the program.
+2. Define class Student with members: name, roll, marks[5], and static count.
+3. Write a parameterized constructor to initialize data.
+4. Define a destructor to display when an object is deleted.
+5. Create inline function totalMarks() to return total marks.
+6. Define a static function showCount() to display total students.
+7. Write non-member functions to print grade and return topper.
+8. Create array of objects and call required functions.
+9. Display results.
+10. Stop 
+//Program:
 #include <iostream>
 using namespace std;
 class Student {
@@ -65,3 +80,6 @@ int main()
     Student::showCount();
     return 0;
 }
+//Result:
+Creating student mangement & creating object is successfully completed & executed.
+
