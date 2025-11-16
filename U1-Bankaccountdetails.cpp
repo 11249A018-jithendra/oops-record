@@ -1,3 +1,12 @@
+//Aim:To create a class account with account no,name and balance display details of two account.
+//Algorithm:
+1.start
+2.define class account with attributes account no,name & balance.
+3.define member function dispaly()
+4.in main(),create two object a1,a2.
+5.Assign details for both acccounts.
+6.call display() for both
+7.end
 #include<iostream>
 using namespace std;
 class accountnumber
@@ -24,3 +33,5 @@ int main()
 	a2.display();
 	return 0;
 }
+//Result: creating account class and creating object is successfully completed & executed.
+
