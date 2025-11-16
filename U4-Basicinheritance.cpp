@@ -1,3 +1,11 @@
+//Aim:
+To implement single inheritance using base and derived classes.
+Algorithm:
+1. Create a class Person with name and age.
+2. Derive class Teacher with subject and salary.
+3. Use base and derived class member functions to input and display data.
+4. Create object and call functions
+/Program:
 #include <iostream>
 using namespace std;
 class Person {
@@ -33,3 +41,6 @@ int main() {
  t.displayTeacher();
  return 0;
 }
+//Result:
+The program is successfully completed and executed.
+
