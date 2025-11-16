@@ -1,3 +1,6 @@
+//Aim:
+To demonstrate assignment operator overloading
+
 #include <iostream>
 #include <string.h>
 using namespace std;
@@ -27,3 +30,4 @@ int main() {
  b2.display();
  return 0;
 }
+
