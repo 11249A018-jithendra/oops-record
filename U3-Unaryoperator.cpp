@@ -1,3 +1,10 @@
+//Aim:
+To overload the unary operator.
+Algorithm:
+1. Create Temperature class with celsius as data member.
+2. Overload unary - to convert to Fahrenheit.
+3. Display both values.
+/Program:
 #include <iostream>
 using namespace std;
 class Temperature {
@@ -18,3 +25,6 @@ int main() {
  -t;
  return 0;
 }
+//Result:
+The program is successfully completed and executed.
+
