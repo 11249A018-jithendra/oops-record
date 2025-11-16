@@ -1,3 +1,14 @@
+//Aim:
+To develop a class Car that stores and displays details of cars.
+//Algorithm:
+1. Start the program.
+2. Define a class Car with model, company, and price.
+3. Define a function display() to print details.
+4. In main(), create three objects.
+5. Assign values to data members.
+6. Display details using display().
+7. end
+
 #include<iostream>
 using namespace std;
 class car
@@ -28,3 +39,5 @@ int main()
 	c3.display();
 	return 0;
 }
+//Result:creatin car class and creating object is successfully completed &executers.
+
