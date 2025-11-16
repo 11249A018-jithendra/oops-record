@@ -1,3 +1,10 @@
+//Aim:
+To demonstrate class templates for generic numeric operations.
+//Algorithm:
+1. Define template<class T> class Calculator.
+2. Implement arithmetic methods; handle division by zero (return 0 or throw).
+3. Demonstrate with int and double.
+/Program:
 #include <iostream>
 using namespace std;
 template <class T>
@@ -22,3 +29,6 @@ int main() {
 endl;
  return 0;
 }
+//Result:
+The program is successfully complete and executed.
+
