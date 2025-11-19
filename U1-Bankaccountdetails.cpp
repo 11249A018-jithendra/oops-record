@@ -7,6 +7,7 @@
 5.Assign details for both acccounts.
 6.call display() for both
 7.end
+//Program:
 #include<iostream>
 using namespace std;
 class accountnumber
@@ -34,4 +35,5 @@ int main()
 	return 0;
 }
 //Result: creating account class and creating object is successfully completed & executed.
+
 
