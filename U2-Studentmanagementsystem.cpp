@@ -1,7 +1,7 @@
 //Aim:
 To design a C++ program using classes that manages student details and demonstrates constructors, 
 destructors, static members, and arrays.
-Algorithm:
+/Algorithm:
 1. Start the program.
 2. Define class Student with members: name, roll, marks[5], and static count.
 3. Write a parameterized constructor to initialize data.
@@ -82,4 +82,5 @@ int main()
 }
 //Result:
 Creating student mangement & creating object is successfully completed & executed.
+
 
