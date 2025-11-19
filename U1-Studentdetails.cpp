@@ -6,8 +6,8 @@
 4. In main(), create three objects. 
 5. Assign values to each student. 
 6. Display the data using display(). 
-7. Stop the program. 
-Program: 
+7. Stop  
+//Program: 
 #include<iostream>
 using namespace std;
 class student
@@ -41,4 +41,5 @@ int main()
 }
 //Result:
 creating a student class and creating object is successfully completed and executed.
+
 
