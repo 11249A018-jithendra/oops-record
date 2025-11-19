@@ -1,6 +1,6 @@
 //Aim:
 To demonstrate constructors with default arguments and member functions in C++.
-Algorithm:
+/Algorithm:
 1. Start the program.
 2. Define class Employee with members: id, name, salary.
 3. Create constructor with default arguments.
@@ -47,6 +47,7 @@ int main() {
 }
 //Result:
 The program successfully create employees object,count the total no.of employees using a static variable and compare their salaries.
+
 
 
 
