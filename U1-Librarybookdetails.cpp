@@ -8,7 +8,7 @@ To create a class that represents books and displays their details.
 5. Assign values to each object.
 6. Display using display().
 7. Stop
-program:
+//program:
 #include<iostream>
 using namespace std;
 class book
@@ -37,5 +37,6 @@ int main()
 	b2.display();
 	return 0;
 }
-//result:creating book class and creating object is successfully completed & executed.
+//Result:creating book class and creating object is successfully completed & executed.
+
 
