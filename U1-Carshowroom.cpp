@@ -8,7 +8,7 @@ To develop a class Car that stores and displays details of cars.
 5. Assign values to data members.
 6. Display details using display().
 7. end
-
+//Program:
 #include<iostream>
 using namespace std;
 class car
@@ -40,4 +40,5 @@ int main()
 	return 0;
 }
 //Result:creatin car class and creating object is successfully completed &executers.
+
 
